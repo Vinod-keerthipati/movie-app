@@ -6,7 +6,8 @@ import Main from './Main';
 import Search from './Search';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route ,Navigate} from "react-router-dom";
+//import { Redirect } from 'react-router'
 
 
 function App() {
@@ -45,9 +46,13 @@ function App() {
 
       <BrowserRouter>
       <Routes>
-      <Route path="/" element={<Main props={type} />}/>
+     
+      <Route index element={<Main props={type} />}/>
       <Route path="/search" element={<Search/>}/>
-      
+      <Route path="*"
+          element={<Main props={type} />}/>
+        
+     
       </Routes>
 
         <div className=' foot bg-dark text-center d-flex flex-column justify-content-center '>
@@ -61,11 +66,11 @@ function App() {
                 </span>
                 Movies
               </button>
+              </Link>
+           
 
-            </Link>
 
-
-            <Link to='/'>
+              <Link to='/'>
               <button onClick={() => settype(tv)} id='tv' style={{ marginRight: "4vw" }} type="button" className=" button_hover btn btn-danger  border-0">
                 <span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-tv mb-1 mr-2 " viewBox="0 0 16 16">
