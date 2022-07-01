@@ -1,0 +1,195 @@
+.title {
+
+  color: #d92638;
+
+}
+
+
+
+
+.header {}
+
+
+.full {
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.box {
+
+  margin: 0px;
+}
+
+.movie {
+
+  color: white;
+
+}
+
+.heist {
+
+  color: red;
+
+}
+
+.foot {
+
+  position: fixed;
+  bottom: 0px;
+  height: 53px;
+  width: 100%;
+  z-index: 1;
+}
+
+.foot_margin {
+
+  margin-right: 5vw;
+}
+
+.button_hover:hover {
+  background-color: white;
+  color: red;
+}
+
+.card {
+
+  height: 200px;
+  width: 150px;
+  background-color: white;
+
+}
+
+
+.poster {
+
+  height: 100%;
+  width: 100%;
+
+}
+
+.button {
+
+
+  margin: 3px;
+  border: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.height {
+
+  z-index: 1;
+}
+
+.card:hover {
+
+
+  outline: white;
+
+}
+
+.button:hover {
+
+  padding: 6px;
+  background-color: #dc3545;
+}
+
+
+
+.trending {
+
+  margin-left: 20px;
+
+}
+
+
+::-webkit-scrollbar-track {
+  max-width: 5%;
+  border-radius: 0px;
+  background-color: #454d54;
+}
+
+::-webkit-scrollbar {
+  height: 7px;
+  width: 0px;
+  background-color: #454d54;
+}
+
+::-webkit-scrollbar-thumb {
+ height: 50%;
+
+  background-color: rgb(168, 166, 166);
+}
+
+.popup {
+
+
+  position: fixed;
+  height: 90vh;
+  width: 100vw;
+  left: 0px;
+  top: 80px;
+  overflow: scroll;
+
+  z-index: 2 !important;
+}
+
+.image {
+
+  height: 250px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.pop_card {
+
+  height: 100px;
+  width: 100px;
+
+
+
+}
+
+.pop_button {
+
+
+
+  border: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+
+
+}
+
+.pop_scroll {
+
+  height: 160px;
+}
+
+
+.pop_scroll::-webkit-scrollbar-track {
+  max-width: 10%;
+  border-radius: 10px;
+  background-color: #343a40;
+}
+
+.pop_scroll::-webkit-scrollbar {
+  height: 5px;
+  width: 2px;
+  background-color: #343a40;
+}
+
+.orgtitle {
+
+  text-shadow: 1px 2px black;
+  text-align: center;
+
+}
+
+.title_type {
+  text-shadow: 1px 1px burlywood;
+
+}

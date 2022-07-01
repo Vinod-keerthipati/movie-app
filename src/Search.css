@@ -1,0 +1,15 @@
+input{
+    border: 3px solid #dc3545;
+    border-radius: 40px ;
+    width: 250px;
+    height: 40px;
+    background-color: #343a40;
+    color: white;
+    
+}
+
+input:focus{
+
+    border: 3px solid #dc3545;
+    outline: none;
+}
