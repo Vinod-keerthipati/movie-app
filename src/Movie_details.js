@@ -85,14 +85,15 @@ function Movie_details(props) {
 
             <h6 className='text-white mt-3 text-secondary m-0'> IMDB - {movie_details.vote_average}/10</h6>
             <div className='d-flex m-0'>
-              <h6 className='text-white mt-1 text-secondary m-0 mr-1'> Genres : </h6>
+              <h6 className='text-white mt-1 text-secondary m-0 mr-2'> Genres: </h6>
+              <div className='ml-0 d-flex flex-wrap'>
               {genres.slice(0, 4).map((e) => {
                 return (
-                  <h6 className='text-white mt-1 text-secondary m-0 mr-2'>  {e.name}, </h6>
+                  <p className='text-white mt-1 text-secondary m-0 mr-2'>  {e.name}, </p>
 
                 );
               })}
-
+</div>
 
             </div>
 

@@ -56,7 +56,7 @@ function Search() {
       <h1 className=''> search...</h1>
       <br></br>
 
-      
+      <div >
 
      <div className='d-flex  justify-content-end mr-5'>
 
@@ -127,7 +127,7 @@ function Search() {
         </div>
       </div>
 
-
+      </div>
 
 
       <Movie_details id={id} type={type} />

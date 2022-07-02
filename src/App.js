@@ -24,7 +24,7 @@ function App() {
 
 
   return (
-    <div className='full m-0 p-0  '   >
+    <div className='full m-0 p-0  '  style={{ backgroundColor: '#454d54' }}  >
       <div className=' bg-dark header  d-flex justify-content-center' >
         <div className='container '>
           <div className='ml-0 row d-flex justify-content-center'>
